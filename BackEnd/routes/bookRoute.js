@@ -4,7 +4,7 @@ const userController=require ("../controllers/userController.js") ;
 const bookController =require ("../Controllers/BookController.js");
 
 router
-.route("")
+.route("/")
 .get(bookController.getALlBook) ;
 router
 .route('/:id')

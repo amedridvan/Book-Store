@@ -4,12 +4,12 @@ export default function  App () {
     return(
         <>
        
-<div class="flex h-screen">
+<div class="flex h-screen ">
   <div class="hidden  lg:flex flex-1  text-black">
       <img src={img2} alt="" className=' ' />
   </div>
 
-  <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center">
+  <div class=" bg-gray-100 lg:w-1/2 flex items-center justify-center">
     <div class="max-w-md w-full p-6">
       <h1 class="text-3xl font-semibold mb-6 text-black text-center">Sign In</h1>
      
